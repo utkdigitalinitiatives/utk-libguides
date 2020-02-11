@@ -1,0 +1,44 @@
+body {
+  background-color: #fff;
+  font-size: $type-2 !important;
+  font-family: "Gotham SSm 2r", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#s-lib-public-header,
+#s-lg-guide-header {
+  padding: 29px 0 18px;
+}
+
+#s-lib-admin-bc .breadcrumb,
+#s-lib-bc .breadcrumb {
+  margin: 0;
+  font-size: $type-1;
+  font-weight: 400;
+}
+
+#s-lg-guide-header #s-lg-guide-header {
+  padding: 0;
+}
+
+
+#s-lg-guide-header-info h1,
+.s-lib-header h1 {
+  font-size: $type-5;
+  letter-spacing: -0.029em;
+  font-weight: 400;
+  color: #58595b;
+  margin-top: 29px;
+  margin-bottom: 11px;
+}
+
+#s-lg-tabs-container {
+  padding: 11px 0 29px;
+}
+
+#s-lg-guide-tabs-title-bar {
+  border: none;
+}
+
+#s-lg-guide-main {
+  background-color: #fff;
+}

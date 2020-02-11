@@ -12,7 +12,7 @@ This tool compiles the source stylesheet file to be uploaded to LibGuides at htt
 - `npm install`
 - `npm install --global gulp-cli`
 
-## Compiling
+## Compile
 - One time compile: `gulp build`
 - Watch task: `gulp start`
 
