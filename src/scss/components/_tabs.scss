@@ -1,0 +1,42 @@
+#s-lg-tabs-container .nav-tabs > .active > a,
+#s-lg-tabs-container .nav-tabs > .active > button,
+#s-lg-tabs-container .nav-pills > .active > a,
+#s-lg-tabs-container .nav-pills > .active > button {
+  background-color: $smokey;
+
+  &:hover {
+    background-color: $smokey;
+  }
+}
+
+#s-lg-tabs-container .nav-tabs > li > a,
+#s-lg-tabs-container .nav-tabs > li > button,
+#s-lg-tabs-container .nav-pills > li > a,
+#s-lg-tabs-container .nav-pills > li > button {
+  background-color: $gray-0;
+  color: $smokey;
+  padding: 0.75em 1.5em;
+  line-height: 1.25em;
+  letter-spacing: -0.025em;
+  font-weight: 400;
+
+  &:hover {
+    background-color: $globe;
+  }
+}
+
+#s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+#s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover,
+#s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-top-link,
+#s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-top-link:hover {
+  padding: 0.75em 1.5em;
+  font-weight: 400;
+}
+
+#s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+  padding: 0.75em 1.5em !important;
+}
+
+#s-lg-tabs-container .nav .dropdown-toggle .caret {
+  border-top-color: $rock;
+}

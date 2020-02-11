@@ -1,0 +1,10 @@
+.label {
+  &-info {
+    background-color: $globe;
+
+    &:hover,
+    &:focus {
+      background-color: $leconte !important;
+    }
+  }
+}
