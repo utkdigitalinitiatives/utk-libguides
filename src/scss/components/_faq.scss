@@ -7,3 +7,9 @@
     font-size: $type-1;
   }
 }
+
+#s-la-bc .breadcrumb {
+  background-image: none !important;
+  background-color: $white !important;
+  margin-top: $golden-ratio-1;
+}
