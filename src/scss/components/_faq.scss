@@ -13,3 +13,95 @@
   background-color: $white !important;
   margin-top: $golden-ratio-1;
 }
+
+.s-la-content-iconitem  {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: $white;
+  height: 47px;
+  box-shadow: $box-shadow;
+  margin-bottom: 18px;
+
+  &-text {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    font-size: 13px;
+    font-weight: 700;
+    padding-right: 11px;
+    text-transform: uppercase;
+    color: $smokeyx !important;
+    letter-spacing: -0.018em;
+
+    a,
+    a:visited {
+      color: $smokeyx !important;
+    }
+  }
+
+  &-icon {
+    margin: 0;
+    width: 47px;
+    height: 47px;
+    background-color: $orange;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    .fa {
+      font-size: 23px;
+      color: $white;
+    }
+  }
+}
+
+div[id^='libchat'] {
+  margin-bottom: $golden-ratio-2;
+
+  button {
+    height: $golden-ratio-4 !important;
+    line-height: $golden-ratio-4 !important;
+    border-radius: $golden-ratio-4 !important;
+    font-size: $type-2 !important;
+    font-weight: 700 !important;
+    font-family: $sans !important;
+    box-shadow: $box-shadow-float;
+    background-color: $white !important;
+    color: $smokeyx !important;
+    padding: 0 calc(#{$golden-ratio-1 + $golden-ratio-4}) 0 $golden-ratio-2 !important;
+    position: relative !important;
+    z-index: 0;
+
+    &::after {
+      content: "\E808";
+      font-family: fontello, monospace;
+      color: $white !important;
+      font-style: normal;
+      font-size: $type-3;
+      speak: none;
+      font-weight: 400;
+      display: block;
+      position: absolute;
+      right: -1px;
+      top: -1px;
+      height: $golden-ratio-4 !important;
+      width: $golden-ratio-4 !important;
+      background-color: $rock;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 6px 100%) !important;
+      border-top-right-radius: $golden-ratio-4 !important;
+      border-bottom-right-radius: $golden-ratio-4 !important;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    &.libchat_online::after {
+      background-color: $switchgrass !important;
+    }
+
+    &.libchat_offline::after {
+      background-color: $rock !important;
+    }
+  }
+}
