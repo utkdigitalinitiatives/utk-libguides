@@ -3,3 +3,13 @@
   padding: 0.75em 1.5em;
   margin: 0.5em 0;
 }
+
+
+.btn-info,
+.btn-info.active,
+.btn-info:active,
+.btn-info:focus,
+.btn-info:hover {
+  background-color: #006c93;
+  color: $white;
+}
