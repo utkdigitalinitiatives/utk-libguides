@@ -3,3 +3,13 @@
   color: $smokey;
   padding: 1em;
 }
+
+#s-lg-az-results .s-lg-az-result-title {
+  font-size: $type-3 !important;
+}
+.s-lg-az-result-keywords {
+  font-size: $type-2 !important;
+  line-height: 1.47em;
+  margin: 6px 0;
+  color: $smokey;
+}
