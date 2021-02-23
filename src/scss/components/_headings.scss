@@ -1,7 +1,10 @@
-.s-lib-box .s-lib-box-title {
-  font-size: $type-3 !important;
-  color: $smokey;
-  padding: 1em;
+.s-lib-box {
+  .s-lib-box-title {
+    font-size: $type-3 !important;
+    color: $smokey !important;
+    padding: 1em !important;
+    background-color: $gray-0 !important;
+  }
 }
 
 #s-lg-az-results .s-lg-az-result-title {
