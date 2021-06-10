@@ -6,6 +6,11 @@
   color: $white !important;
 }
 
+.btn.btn-primary,
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  color: white;
+}
 
 .btn-info,
 .btn-info.active,
